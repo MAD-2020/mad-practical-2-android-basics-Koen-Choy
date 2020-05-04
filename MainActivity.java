@@ -53,19 +53,19 @@ public class MainActivity extends AppCompatActivity
         {
             case "first":{
                 left.setText("*");
-                middle.setText("0");
-                right.setText("0");
+                middle.setText("O");
+                right.setText("O");
                 break;
             }
             case "second":{
-                left.setText("0");
+                left.setText("O");
                 middle.setText("*");
-                right.setText("0");
+                right.setText("O");
                 break;
             }
             default:{
-                left.setText("0");
-                middle.setText("0");
+                left.setText("O");
+                middle.setText("O");
                 right.setText("*");
                 break;
             }
